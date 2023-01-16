@@ -1,0 +1,96 @@
+body {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    max-width: 100%;
+    background-image: url("city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+  }
+  .main {
+    width: 50%;
+    max-width: 50%;
+    height: 100%;
+  }
+  .main {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    height: 100vh;
+    margin-right: -0%;
+  }
+  input {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid silver;
+    height: 100%;
+    color: #fff;
+    background-color: transparent;
+  }
+  input:focus::placeholder {
+    background-color: transparent;
+    border: none;
+  }
+  svg {
+    color: #fff;
+  }
+  .center {
+    text-align: center;
+  }
+  .flexi {
+    display: flex;
+  }
+  .line {
+    border-top: 1px solid silver !important;
+  }
+  .bi {
+    background-color: transparent;
+    border: none;
+  }
+  .date {
+    font-style: italic;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 400px) {
+    body {
+      padding: 10px;
+      height: 100vh;
+    }
+    .main {
+      height: 100%;
+    }
+    input {
+      width: 60%;
+      font-size: 10px;
+    }
+  
+    .temp {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    body {
+      padding: 10px;
+      height: 100vh;
+    }
+    .main {
+      height: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    body {
+      padding: 10px;
+      height: 100vh;
+    }
+    .main {
+      height: 100%;
+    }
+  }
+  
